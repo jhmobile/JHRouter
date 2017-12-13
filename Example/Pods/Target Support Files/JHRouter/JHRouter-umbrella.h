@@ -11,6 +11,7 @@
 #endif
 
 #import "JHRouter.h"
+#import "JHRouterInterceptor.h"
 
 FOUNDATION_EXPORT double JHRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char JHRouterVersionString[];

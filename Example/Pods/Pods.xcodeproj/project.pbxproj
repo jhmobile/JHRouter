@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		110BB5224E848DA9500B8A0588251F64 /* JHRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E695A19534A2FCABB89AFA9E05812F1C /* JHRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		275149AF5AEEA379192592D2251B61F4 /* JHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BF151DDE306470955E3C5E5A451A90 /* JHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284F475FDB59717499AD4CA98AF651D5 /* JHRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A5C0C70E0952FD4C0F4803BAA88CC1 /* JHRouter-dummy.m */; };
 		487C731E9A849626961EB373C00935A0 /* Pods-JHRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A5FC500D98BDD49A8DC69B707BA2C4 /* Pods-JHRouter_Tests-dummy.m */; };
-		5547AF39A34D813FFC5F808830C451AE /* JHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CAFD0DA128E7C07E8F85CC9E0CC9B /* JHRouter.m */; };
 		5B8ED614CFFE047C4A6B0883D1114E85 /* Pods-JHRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD7E5903B79D99C7310502FEEF65B05 /* Pods-JHRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		77197B1BA62EBFE32880F7D434C8F0D7 /* JHRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AD5EB8B057E1935ADFC4EA7C057C0 /* JHRouter-dummy.m */; };
+		5EC339954BB7F9440B16AA3DA6E6C8DB /* JHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 690C84AA68EEE3D2F20642AF1B3602BC /* JHRouter.m */; };
+		8AC5C744FFB9D4B4CFF22DEACB504C27 /* JHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = EC57EC6D5931B3C3F96447FBC18B7EAD /* JHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F8CA2BA24C68DC2BFA4F138B5DE49F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AB32431ED1A8F55A50397AD4D2294A86 /* JHRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C202E06867A3DA7260600AC288368300 /* JHRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8D97D06C94B95955C8AAEFA4EDD3B67 /* Pods-JHRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A21E97D12375F24F450D388F7689A3 /* Pods-JHRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD0333EBFF4E60EC368A19E261858BBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BEC964F12962572CC28BAD2FCEF87F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CDFEE2BDE3CBFEC7857E8942F3BF7266 /* JHRouterInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF30B2D95E9E62BFBFA6DB47D96E2E6 /* JHRouterInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D75D889EFE366DC4EDACB9363C343B8B /* Pods-JHRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9614006D34C74ECCF4088E4A291FFDDE /* Pods-JHRouter_Example-dummy.m */; };
+		E69252E80EB1C1BDE1F84A920767B8F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FC4A4018B0270246B807AAC16DC2D2FF /* JHRouterInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6080687F3DC4A821067B4F797F7B44 /* JHRouterInterceptor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,27 +27,28 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8C17C34D08FFE089FD58B5FB7086D4E8;
+			remoteGlobalIDString = 75C1FD2ADF280E5DA0B79AA285D737BF;
 			remoteInfo = JHRouter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CF30B2D95E9E62BFBFA6DB47D96E2E6 /* JHRouterInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHRouterInterceptor.h; path = JHRouter/Classes/Source/JHRouterInterceptor.h; sourceTree = "<group>"; };
 		1CFFB5E97ED3FC0D89F9E83091C97DD8 /* Pods-JHRouter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHRouter_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		28128EFA35715838AB6AC525F296F80F /* JHRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JHRouter.modulemap; sourceTree = "<group>"; };
-		2A6AD5EB8B057E1935ADFC4EA7C057C0 /* JHRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JHRouter-dummy.m"; sourceTree = "<group>"; };
+		1D68362B73A4136E81FB3ED223BADFC0 /* JHRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHRouter-prefix.pch"; sourceTree = "<group>"; };
 		2A90778644FDDE76FBC2CB8CF8D0547A /* Pods-JHRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JHRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C956397AA362F9EAEE46F297BE2B922 /* JHRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHRouter.xcconfig; sourceTree = "<group>"; };
 		2FD7E5903B79D99C7310502FEEF65B05 /* Pods-JHRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JHRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		33F18938EB1499EC6DBB9A020D0C577A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3518E49C172036015323C1C57334FD9B /* JHRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JHRouter.modulemap; sourceTree = "<group>"; };
 		3519C4C2448D18C26ED2B5559326F264 /* Pods-JHRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		355FD2B06BF3473A7BB1CFDF7562FB8F /* Pods-JHRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		39A5FC500D98BDD49A8DC69B707BA2C4 /* Pods-JHRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JHRouter_Tests-dummy.m"; sourceTree = "<group>"; };
-		3D3CAFD0DA128E7C07E8F85CC9E0CC9B /* JHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHRouter.m; path = JHRouter/Classes/Source/JHRouter.m; sourceTree = "<group>"; };
 		49BAC390A16F1E11FD35FD8B5F9493C1 /* Pods_JHRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JHRouter_Example.framework; path = "Pods-JHRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF4B1D4E65A85853A2DFE1301B7F878 /* Pods-JHRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JHRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		595317682AF7A854E5AB1221C33A3E19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5998C47108B4470FC99AFB4D82067EEF /* Pods-JHRouter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHRouter_Tests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		690C84AA68EEE3D2F20642AF1B3602BC /* JHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHRouter.m; path = JHRouter/Classes/Source/JHRouter.m; sourceTree = "<group>"; };
 		6AE83728BB40FF968E18486E201AEC54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70307F376C464CC98F82F4FE127F1D34 /* Pods-JHRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JHRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		776497C2651CE20FAB174BE205FD24EE /* Pods_JHRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JHRouter_Tests.framework; path = "Pods-JHRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,30 +59,31 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95A21E97D12375F24F450D388F7689A3 /* Pods-JHRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JHRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9614006D34C74ECCF4088E4A291FFDDE /* Pods-JHRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JHRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		97A5C0C70E0952FD4C0F4803BAA88CC1 /* JHRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JHRouter-dummy.m"; sourceTree = "<group>"; };
 		98A7F69E25C139CC550A85F5A293A721 /* Pods-JHRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D055BB53259F50D992DDA3861045D25 /* Pods-JHRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JHRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A2A54A53B8429F1ADA169653145AA68A /* JHRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHRouter-prefix.pch"; sourceTree = "<group>"; };
+		9E6080687F3DC4A821067B4F797F7B44 /* JHRouterInterceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JHRouterInterceptor.m; path = JHRouter/Classes/Source/JHRouterInterceptor.m; sourceTree = "<group>"; };
+		A67F4C922B59428178E3A0DAA382FBC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01E2D8189E0326F697A74F282133BD6 /* Pods-JHRouter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JHRouter_Example-resources.sh"; sourceTree = "<group>"; };
-		D1BF151DDE306470955E3C5E5A451A90 /* JHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHRouter.h; path = JHRouter/Classes/Source/JHRouter.h; sourceTree = "<group>"; };
+		C202E06867A3DA7260600AC288368300 /* JHRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHRouter-umbrella.h"; sourceTree = "<group>"; };
 		D9A4341FF8EDF11F0245208010065DCC /* Pods-JHRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JHRouter_Tests.modulemap"; sourceTree = "<group>"; };
-		E695A19534A2FCABB89AFA9E05812F1C /* JHRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JHRouter-umbrella.h"; sourceTree = "<group>"; };
-		EAF8A83B62815EC8F62F2002FCF8D656 /* JHRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JHRouter.xcconfig; sourceTree = "<group>"; };
+		EC57EC6D5931B3C3F96447FBC18B7EAD /* JHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JHRouter.h; path = JHRouter/Classes/Source/JHRouter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3621430B54A207C57EC36C89596CC443 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD0333EBFF4E60EC368A19E261858BBC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		45D92717E89C0ADCEF8F676824FD61A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8F8CA2BA24C68DC2BFA4F138B5DE49F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78780659AC5456C0C003DCF0AFF40E22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69252E80EB1C1BDE1F84A920767B8F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,11 +98,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002C4E091A1E861EFBA428F384627515 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67F4C922B59428178E3A0DAA382FBC4 /* Info.plist */,
+				3518E49C172036015323C1C57334FD9B /* JHRouter.modulemap */,
+				2C956397AA362F9EAEE46F297BE2B922 /* JHRouter.xcconfig */,
+				97A5C0C70E0952FD4C0F4803BAA88CC1 /* JHRouter-dummy.m */,
+				1D68362B73A4136E81FB3ED223BADFC0 /* JHRouter-prefix.pch */,
+				C202E06867A3DA7260600AC288368300 /* JHRouter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JHRouter";
+			sourceTree = "<group>";
+		};
+		618E5513D56979D39C19AD68F639C451 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAF6FD615ED8E0948E60BC118DDFB307 /* JHRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C53233EF2BB71C0B0B38CFFD725B129D /* Development Pods */,
+				618E5513D56979D39C19AD68F639C451 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				FFF39F6AC626B76D705E1AA754A6D940 /* Products */,
 				B01C123BACB75F0EA683B24BEC322560 /* Targets Support Files */,
@@ -158,25 +184,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C53233EF2BB71C0B0B38CFFD725B129D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C71DAAB265675B40193C2E0E28F2DE63 /* JHRouter */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C71DAAB265675B40193C2E0E28F2DE63 /* JHRouter */ = {
-			isa = PBXGroup;
-			children = (
-				D1BF151DDE306470955E3C5E5A451A90 /* JHRouter.h */,
-				3D3CAFD0DA128E7C07E8F85CC9E0CC9B /* JHRouter.m */,
-				EAB6AC83A4BD06371959F535D0589747 /* Support Files */,
-			);
-			name = JHRouter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,18 +192,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EAB6AC83A4BD06371959F535D0589747 /* Support Files */ = {
+		DAF6FD615ED8E0948E60BC118DDFB307 /* JHRouter */ = {
 			isa = PBXGroup;
 			children = (
-				33F18938EB1499EC6DBB9A020D0C577A /* Info.plist */,
-				28128EFA35715838AB6AC525F296F80F /* JHRouter.modulemap */,
-				EAF8A83B62815EC8F62F2002FCF8D656 /* JHRouter.xcconfig */,
-				2A6AD5EB8B057E1935ADFC4EA7C057C0 /* JHRouter-dummy.m */,
-				A2A54A53B8429F1ADA169653145AA68A /* JHRouter-prefix.pch */,
-				E695A19534A2FCABB89AFA9E05812F1C /* JHRouter-umbrella.h */,
+				EC57EC6D5931B3C3F96447FBC18B7EAD /* JHRouter.h */,
+				690C84AA68EEE3D2F20642AF1B3602BC /* JHRouter.m */,
+				1CF30B2D95E9E62BFBFA6DB47D96E2E6 /* JHRouterInterceptor.h */,
+				9E6080687F3DC4A821067B4F797F7B44 /* JHRouterInterceptor.m */,
+				002C4E091A1E861EFBA428F384627515 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JHRouter";
+			name = JHRouter;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FFF39F6AC626B76D705E1AA754A6D940 /* Products */ = {
@@ -220,12 +226,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A14AFD9CBF61407658F035351A981E3F /* Headers */ = {
+		9AD19261AFA0A4FC9052D56BCB3140DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				110BB5224E848DA9500B8A0588251F64 /* JHRouter-umbrella.h in Headers */,
-				275149AF5AEEA379192592D2251B61F4 /* JHRouter.h in Headers */,
+				AB32431ED1A8F55A50397AD4D2294A86 /* JHRouter-umbrella.h in Headers */,
+				8AC5C744FFB9D4B4CFF22DEACB504C27 /* JHRouter.h in Headers */,
+				CDFEE2BDE3CBFEC7857E8942F3BF7266 /* JHRouterInterceptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,13 +282,13 @@
 			productReference = 776497C2651CE20FAB174BE205FD24EE /* Pods_JHRouter_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8C17C34D08FFE089FD58B5FB7086D4E8 /* JHRouter */ = {
+		75C1FD2ADF280E5DA0B79AA285D737BF /* JHRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C987995D01267DFA0E65B0B9CD281310 /* Build configuration list for PBXNativeTarget "JHRouter" */;
+			buildConfigurationList = 06C103DDF8AB7C620C5D2F304E358CB2 /* Build configuration list for PBXNativeTarget "JHRouter" */;
 			buildPhases = (
-				9CE6300807EF69AE6A7C255D2DB3B571 /* Sources */,
-				3621430B54A207C57EC36C89596CC443 /* Frameworks */,
-				A14AFD9CBF61407658F035351A981E3F /* Headers */,
+				C0099215E17AB2AA47B0CF6F47A16147 /* Sources */,
+				78780659AC5456C0C003DCF0AFF40E22 /* Frameworks */,
+				9AD19261AFA0A4FC9052D56BCB3140DC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -313,7 +320,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C17C34D08FFE089FD58B5FB7086D4E8 /* JHRouter */,
+				75C1FD2ADF280E5DA0B79AA285D737BF /* JHRouter */,
 				31647EDFF26F8ABC631AF09F1D35099A /* Pods-JHRouter_Example */,
 				5456F408B6C0F222522062DC96E9DDE4 /* Pods-JHRouter_Tests */,
 			);
@@ -329,12 +336,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CE6300807EF69AE6A7C255D2DB3B571 /* Sources */ = {
+		C0099215E17AB2AA47B0CF6F47A16147 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77197B1BA62EBFE32880F7D434C8F0D7 /* JHRouter-dummy.m in Sources */,
-				5547AF39A34D813FFC5F808830C451AE /* JHRouter.m in Sources */,
+				284F475FDB59717499AD4CA98AF651D5 /* JHRouter-dummy.m in Sources */,
+				5EC339954BB7F9440B16AA3DA6E6C8DB /* JHRouter.m in Sources */,
+				FC4A4018B0270246B807AAC16DC2D2FF /* JHRouterInterceptor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +360,7 @@
 		18974E8E6C92FC0EAC2F9E6454FB0B49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JHRouter;
-			target = 8C17C34D08FFE089FD58B5FB7086D4E8 /* JHRouter */;
+			target = 75C1FD2ADF280E5DA0B79AA285D737BF /* JHRouter */;
 			targetProxy = CDFA587628318006380CB8E3EBB16B50 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,39 +446,6 @@
 			};
 			name = Release;
 		};
-		507B34E2CC3508BEB2A9EB6531F228F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF8A83B62815EC8F62F2002FCF8D656 /* JHRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JHRouter/JHRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JHRouter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JHRouter/JHRouter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JHRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		923A9C17E3C97F3725CC7140490D5AF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9D055BB53259F50D992DDA3861045D25 /* Pods-JHRouter_Tests.debug.xcconfig */;
@@ -507,16 +482,16 @@
 			};
 			name = Debug;
 		};
-		A77161B26D19389A18685299D8DF53A5 /* Debug */ = {
+		9FE84DCA28363525B0774066EE641C04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF8A83B62815EC8F62F2002FCF8D656 /* JHRouter.xcconfig */;
+			baseConfigurationReference = 2C956397AA362F9EAEE46F297BE2B922 /* JHRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -529,7 +504,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JHRouter/JHRouter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = JHRouter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -538,7 +513,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C6BCC7F5390E186C10CD35FF920A4230 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -575,6 +550,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D5621F382F6DB6209C5380E1D1ACACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C956397AA362F9EAEE46F297BE2B922 /* JHRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JHRouter/JHRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JHRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JHRouter/JHRouter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		DB2C7A6AE5FBEF6A259B587A8D934E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -664,6 +672,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		06C103DDF8AB7C620C5D2F304E358CB2 /* Build configuration list for PBXNativeTarget "JHRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5621F382F6DB6209C5380E1D1ACACA0 /* Debug */,
+				9FE84DCA28363525B0774066EE641C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -687,15 +704,6 @@
 			buildConfigurations = (
 				DB2C7A6AE5FBEF6A259B587A8D934E51 /* Debug */,
 				C6BCC7F5390E186C10CD35FF920A4230 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C987995D01267DFA0E65B0B9CD281310 /* Build configuration list for PBXNativeTarget "JHRouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A77161B26D19389A18685299D8DF53A5 /* Debug */,
-				507B34E2CC3508BEB2A9EB6531F228F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

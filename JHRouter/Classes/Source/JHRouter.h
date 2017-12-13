@@ -25,67 +25,70 @@ typedef NS_ENUM(NSUInteger, RouteType) {
 
 + (RouteType)canOpenURL:(NSString *)URL;
 
+#pragma mark - open URL
 + (BOOL)openURL:(NSString *)URL;
 + (BOOL)openURL:(NSString *)URL
    withUserInfo:(NSDictionary *)userInfo;
 
-+ (BOOL)pushViewControllerMappedToURL:(NSString *)URL;
-+ (BOOL)pushViewControllerMappedToURL:(NSString *)URL
-                         withUserInfo:(NSDictionary *)userInfo;
-+ (BOOL)pushViewControllerMappedToURL:(NSString *)URL
-                                 from:(UINavigationController *)navigationController;
-+ (BOOL)pushViewControllerMappedToURL:(NSString *)URL
-                         withUserInfo:(NSDictionary *)userInfo
-                                 from:(UINavigationController *)navigationController;
-+ (BOOL)pushViewControllerMappedToURL:(NSString *)URL
-                         withUserInfo:(NSDictionary *)userInfo
-                                 from:(UINavigationController *)navigationController
-                           completion:(RouterCompletionCallback *)completion;
+#pragma mark - push viewController mapped to URL
++ (BOOL)pushURL:(NSString *)URL;
++ (BOOL)pushURL:(NSString *)URL
+           from:(UINavigationController *)navigationController;
++ (BOOL)pushURL:(NSString *)URL
+   withUserInfo:(NSDictionary *)userInfo
+   interceptors:(NSArray *)interceptorClasses
+           from:(UINavigationController *)navigationController
+     completion:(RouterCompletionCallback *)completion;
++ (BOOL)pushURL:(NSString *)URL
+   withUserInfo:(NSDictionary *)userInfo
+           from:(UINavigationController *)navigationController
+skipAllInterceptors:(BOOL)skip
+     completion:(RouterCompletionCallback *)completion;
++ (BOOL)pushURL:(NSString *)URL
+   withUserInfo:(NSDictionary *)userInfo
+           from:(UINavigationController *)navigationController
+skipInterceptors:(NSArray *)interceptorClasses
+     completion:(RouterCompletionCallback *)completion;
 
-+ (BOOL)presentViewControllerMappedToURL:(NSString *)URL;
-+ (BOOL)presentViewControllerMappedToURL:(NSString *)URL
-                            withUserInfo:(NSDictionary *)userInfo;
-+ (BOOL)presentViewControllerMappedToURL:(NSString *)URL
-                                  wrappedIn:(Class)navigationControllerClass;
-+ (BOOL)presentViewControllerMappedToURL:(NSString *)URL
-                                  wrappedIn:(Class)navigationControllerClass
-                            withUserInfo:(NSDictionary *)userInfo;
-+ (BOOL)presentViewControllerMappedToURL:(NSString *)URL
-                            withUserInfo:(NSDictionary *)userInfo
-                               wrappedIn:(Class)navigationControllerClass
-                              completion:(RouterCompletionCallback *)completion;
+#pragma mark - present viewController mapped to URL
++ (BOOL)presentURL:(NSString *)URL
+         wrappedIn:(Class)navigationControllerClass;
++ (BOOL)presentURL:(NSString *)URL
+      withUserInfo:(NSDictionary *)userInfo
+         wrappedIn:(Class)navigationControllerClass;
++ (BOOL)presentURL:(NSString *)URL
+      withUserInfo:(NSDictionary *)userInfo
+      interceptors:(NSArray *)interceptorClasses
+         wrappedIn:(Class)navigationControllerClass
+        completion:(RouterCompletionCallback *)completion;
++ (BOOL)presentURL:(NSString *)URL
+      withUserInfo:(NSDictionary *)userInfo
+         wrappedIn:(Class)navigationControllerClass
+skipAllInterceptors:(BOOL)skip
+        completion:(RouterCompletionCallback *)completion;
++ (BOOL)presentURL:(NSString *)URL
+      withUserInfo:(NSDictionary *)userInfo
+         wrappedIn:(Class)navigationControllerClass
+skipInterceptors:(NSArray *)interceptorClasses
+        completion:(RouterCompletionCallback *)completion;
 
+#pragma mark - map things to URL
 + (void)mapBlock:(RouterBlock)block
            toURL:(NSString *)URL;
 
-+ (void)mapViewControllerClass:(Class)viewControllerClass
-                         toURL:(NSString *)URL;
-+ (void)mapViewControllerClass:(Class)viewControllerClass
-                         toURL:(NSString *)URL
-                  withUserInfo:(NSDictionary *)userInfo;
++ (void)mapController:(Class)viewControllerClass
+              present:(BOOL)defaultPresent
+            wrappedIn:(Class)navigationControllerClass
+                toURL:(NSString *)URL
+         whenMatching:(NSDictionary *)userInfo;
 
-+ (void)mapViewControllerClass:(Class)viewControllerClass
-                         toURL:(NSString *)URL
-                       present:(BOOL)defaultPresent
-                     wrappedIn:(Class)navigationControllerClass;
-+ (void)mapViewControllerClass:(Class)viewControllerClass
-                         toURL:(NSString *)URL
-                  withUserInfo:(NSDictionary *)userInfo
-                       present:(BOOL)defaultPresent
-                     wrappedIn:(Class)navigationControllerClass;
++ (void)mapController:(Class)viewControllerClass
+            taskClass:(Class)taskClass
+                toURL:(NSString *)URL
+         whenMatching:(NSDictionary *)userInfo;
 
-+ (void)mapViewControllerClass:(Class)viewControllerClass
-                         toURL:(NSString *)URL
-                     taskClass:(Class)taskClass;
-+ (void)mapViewControllerClass:(Class)viewControllerClass
-                         toURL:(NSString *)URL
-                  withUserInfo:(NSDictionary *)userInfo
-                     taskClass:(Class)taskClass;
-
-+ (void)mapInterceptors:(NSArray *)interceptorClasses
-                  toURL:(NSString *)URL;
 + (void)mapInterceptors:(NSArray *)interceptorClasses
                   toURL:(NSString *)URL
-           withUserInfo:(NSDictionary *)userInfo;
+           whenMatching:(NSDictionary *)userInfo;
 
 @end
