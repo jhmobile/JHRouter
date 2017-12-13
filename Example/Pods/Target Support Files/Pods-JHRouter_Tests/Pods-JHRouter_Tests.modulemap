@@ -1,0 +1,6 @@
+framework module Pods_JHRouter_Tests {
+  umbrella header "Pods-JHRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

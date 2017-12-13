@@ -1,0 +1,120 @@
+{
+  "toast": {
+    "__block": "aBlock"
+  },
+  "root": {
+    "__controllerClass": "TabBarController",
+    "__taskClass": "WindowRootTaskClass"
+  },
+  "home": {
+    "__controllerClass": "HomeViewController",
+    "__taskClass": "TabBarTaskClass"
+  },
+  "producthome": {
+    "__controllerClass": "ProductViewController",
+    "__taskClass": "TabBarTaskClass"
+  },
+  "discovery": {
+    "__controllerClass": "DiscoveryViewController",
+    "__taskClass": "TabBarTaskClass"
+  },
+  "register": {
+    "__controllerClass": "RegisterViewController",
+    "__present": 1,
+    "__wrap": "UINavigationController"
+  },
+  "login": {
+    "__controllerClass": "LoginViewController",
+    "__present": 1,
+    "__wrap": "UINavigationController"
+  },
+  "bindcard": {
+    "__interceptor": [
+      "LoginInterceptor"
+    ],
+    "__controllerClass": "BindCardViewController",
+    "__present": 1,
+    "__wrap": "UINavigationController"
+  },
+  "user": {
+    "__interceptor": [
+      "LoginInterceptor"
+    ],
+    "account": {
+      "__controllerClass": "AccountViewController"
+    },
+    "assets": {
+      "__controllerClass": "AssetsViewController",
+      "__taskClass": "TabBarTaskClass",
+      "__taskOptions": {}
+    }
+  },
+  "product": {
+    "list": {
+      "type=dingqi": {
+        "__controllerClass": "ProductListViewController",
+        "__userInfo": {
+          "type": "dingqi"
+        }
+      },
+      "type=honor": {
+        "__controllerClass": "ProductListViewController",
+        "__userInfo": {
+          "type": "honor"
+        }
+      },
+      "type=privateFund": {
+        "__controllerClass": "ProductListViewController",
+        "__userInfo": {
+          "type": "privateFund"
+        }
+      },
+      "*": {
+        "__controllerClass": "ProductListViewController",
+        "__userInfo": {
+          "type": "other"
+        }
+      }
+    },
+    "detail": {
+      "type=public": {
+        "__controllerClass": "PublicDetailViewController"
+      },
+      "type=shb": {
+        "__interceptor": [
+          "LoginInterceptor"
+        ],
+        "__controllerClass": "SHBDetailViewController"
+      },
+      "*": {
+        "__interceptor": [
+          "LoginInterceptor"
+        ],
+        "__controllerClass": "ProductDetailViewController"
+      }
+    }
+  },
+  "deal": {
+    "__interceptor": [
+      "BindCardInterceptor"
+    ],
+    "buy": {
+      "__interceptor": [
+        "InvestorInterceptor",
+        "RiskInterceptor"
+      ],
+      "type=shb": {
+        "__controllerClass": "BuySHBViewController"
+      },
+      "type=public": {
+        "__controllerClass": "BuyHBViewController"
+      },
+      "*": {
+        "__controllerClass": "BuyFixViewController"
+      }
+    },
+    "balancewithdraw": {
+      "__controllerClass": "BalanceWithdrawViewController"
+    }
+  }
+}
