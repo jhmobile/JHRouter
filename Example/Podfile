@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JHRouter_Example' do
+  pod 'JHRouter', :path => '../'
+
+  target 'JHRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
