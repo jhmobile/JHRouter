@@ -7,10 +7,16 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSUInteger, RouteInterceptionState) {
+    RouteInterceptionStateUnverified,   // 未通过
+    RouteInterceptionStateVerified,     // 通过
+    RouteInterceptionStatePending       // 审核中
+};
+
 @class JHRouteContext;
 
 @interface JHRouteInterceptor : NSObject
 
-@property (nonatomic, weak, readonly) JHRouteContext *context;
+@property (nonatomic, weak) JHRouteContext *context;
 
 @end

@@ -8,6 +8,12 @@
 #import "JHRouteContext.h"
 #import "JHRouteInterceptor.h"
 
+@interface JHRouteContext ()
+
+@property (nonatomic, readonly) NSArray *interceptors;
+
+@end
+
 @implementation JHRouteContext
 
 @end
