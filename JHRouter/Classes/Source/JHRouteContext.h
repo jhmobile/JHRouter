@@ -18,6 +18,8 @@
  next()如何区分当前拦截器，用index
  task? 不管是controller还是block都可以用task抽象？or task专用于controller的呈现
  拦截器打开的页面如何回调interceptor?在router的completion回调里面找到当前展示的页面，set一个拦截器回调。
+ 拦截器中断，根context如何回调？context暴露对应方法来供拦截器调用。
+ context构造方法不想参数多，要引入routeRequest，最终要引入链式调用来解决这个问题。
  */
 
 typedef NS_ENUM(NSUInteger, RouteContextState) {
@@ -49,6 +51,7 @@ typedef NS_ENUM(NSUInteger, RouteContextState) {
                  completion:(RouteCompletionCallback)block;
 
 - (void)next;
+- (void)interceptionInterrupted;
 
 - (void)addChildContext:(JHRouteContext *)context;
 - (void)removeFromParentContext;
